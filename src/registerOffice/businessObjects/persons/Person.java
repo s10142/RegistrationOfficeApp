@@ -13,8 +13,8 @@ public class Person {
 	
 	public Person(String name, String pesel)
 	{
-		this.pesel=pesel;
 		this.name=name;
+		this.pesel=pesel;
 		this.cars=new ArrayList<Car>();
 	}
 	
